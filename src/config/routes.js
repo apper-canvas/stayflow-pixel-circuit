@@ -1,4 +1,4 @@
-import Home from '../pages/Home';
+import HomePage from '@/components/pages/HomePage';
 import Dashboard from '../pages/Dashboard';
 import Reservations from '../pages/Reservations';
 import Rooms from '../pages/Rooms';
@@ -12,7 +12,7 @@ export const routes = {
     label: 'Dashboard',
     path: '/',
     icon: 'Home',
-    component: Home
+    component: HomePage
   },
   dashboard: {
     id: 'dashboard',
